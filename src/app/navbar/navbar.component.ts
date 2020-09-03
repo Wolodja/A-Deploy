@@ -1,3 +1,4 @@
+import { environment } from './../../environments/environment';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,4 +13,5 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  navbarColor = environment.navBarBackgroundColor;
 }
